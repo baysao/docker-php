@@ -34,4 +34,4 @@ RUN sed -i '/daemonize /c \
 RUN sed -i '/clear_env /c \
   clear_env = no' /etc/php/7.0/fpm/pool.d/www.conf
 
-RUN ln -snf /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime && echo "Asia/Ho_Chi_Minh" > /etc/timezone
+#RUN ln -snf /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime && echo "Asia/Ho_Chi_Minh" > /etc/timezone
